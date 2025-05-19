@@ -8,12 +8,13 @@ A first-person shooter (FPS) built in Unity featuring local network multiplayer 
 
 * [Project Overview](#project-overview)
 * [Features](#features)
-* [Reference Playlist](#reference-playlist)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Networking Architecture](#networking-architecture)
 * [Project Structure](#project-structure)
+* [Future Ideas](#future-ideas)
 * [Contributing](#contributing)
+* [Reference Playlist](#reference-playlist)
 * [License](#license)
 
 ---
@@ -22,8 +23,6 @@ A first-person shooter (FPS) built in Unity featuring local network multiplayer 
 
 This Unity project demonstrates how to set up a simple local network multiplayer FPS using Unity’s built-in networking (UNet). Players can host or join a game over LAN, control avatars in first-person perspective, and engage in fast-paced shooter matches.
 
-Repository: [https://github.com/Akshit-Soni/FPS-Game](https://github.com/Akshit-Soni/FPS-Game)
-
 ## Features
 
 * **Local LAN Multiplayer**: Host or join games within the same network.
@@ -31,14 +30,6 @@ Repository: [https://github.com/Akshit-Soni/FPS-Game](https://github.com/Akshit-
 * **Basic Shooting Mechanics**: Raycast-based hits, health management, and respawn.
 * **Simple UI**: Host/Join menus, player count, and score display.
 * **Matchmaking**: Automatic discovery of hosts on the local network.
-
-## Reference Playlist
-
-This project was built following tutorials in the following YouTube playlist:
-
-[https://youtube.com/playlist?list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE](https://youtube.com/playlist?list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE)
-
-Special thanks to the creator for clear, step-by-step guidance on UNet and multiplayer setup.
 
 ## Installation
 
@@ -88,6 +79,14 @@ FPS-Game/
 └── README.md               # This file
 ```
 
+## Future Ideas
+
+* Including levels.
+* Working on the UI.
+* Adding consumables and mechanism.
+* Adding health bar component.
+* Story design.
+
 ## Contributing
 
 Contributions are welcome! To contribute:
@@ -99,6 +98,14 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request with a clear description of your changes.
 
 Please follow Unity best practices and document any new scripts or features.
+
+## Reference Playlist
+
+This project was built following tutorials in the following YouTube playlist:
+
+[https://youtube.com/playlist?list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE](https://youtube.com/playlist?list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE)
+
+Special thanks to the creator for clear, step-by-step guidance on UNet and multiplayer setup.
 
 ## License
 
